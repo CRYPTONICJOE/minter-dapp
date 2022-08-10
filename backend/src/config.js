@@ -36,7 +36,7 @@ const format = {
 };
 
 const extraMetadata = {
-  //external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://blockhedz.xyz", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -52,15 +52,15 @@ const CONTRACT_SYMBOL = 'BHZ';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xB74609468Efc527142F92D83c222Ce88d26532F4';
 const TREASURY_ADDRESS = '0xB74609468Efc527142F92D83c222Ce88d26532F4';
-const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MAX_SUPPLY = 150; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-08-10T09:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-08-11T09:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-08-09T09:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-08-10T09:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xB74609468Efc527142F92D83c222Ce88d26532F4"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
